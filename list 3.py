@@ -1,0 +1,16 @@
+l1=[
+    10,
+    "Raju",
+    (10,20.23),
+    {
+        "Name":"Raju",
+        "age":32
+        }
+    ]
+print('l1',l1,len(l1))
+print(l1[0])
+print(l1[1])
+print(l1[2])
+print(l1[3])
+print(l1[2][1])
+print(l1[3]["age"])
