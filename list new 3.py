@@ -1,0 +1,17 @@
+list1=[11,21,34,45,51,67]
+print('list1',list1,len(list1))
+print(list1[1])
+list1[1]=25
+print('list1',list1,len(list1))
+list1[-1]=56
+print('list1',list1,len(list1))
+list1[1:3]=[100,101]
+print('list1',list1,len(list1))
+list1[1:3]=[200,105,14.23]
+print('list1',list1,len(list1))
+list1[1:3]=[32.30]
+print('list1',list1,len(list1))
+list1[1:5]=[65.23]
+print('list1',list1,len(list1))
+list1[:]=[]
+print('list1',list1,len(list1))
